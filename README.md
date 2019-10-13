@@ -3,5 +3,5 @@ LC101-TypeScript for instructing Chapter 27. https://education.launchcode.org/in
 
 
 # Instructions
-Compile & Run `ts-node runner.ts`
-Compile `tsc runner.ts`
+Compile & Run `ts-node index.ts`
+Compile `tsc index.ts`
