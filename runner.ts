@@ -2,14 +2,17 @@
 const myCatsName = "Garfield";
 
 // TypeScript declaring a variable
-const myDogsName: string = "Shayla";
-
+const myDogsName: String = "Shayla";
+console.log("Hello World");
+console.log("Hello " + myDogsName);
 // A function that takes the average of two input parameters.
 // Strongly type the inputs and outputs
 // What happens when providing the wrong type to the function?
 
 // Write a function that returns a dog age from a human age.
 // age. humanYears, numbers
+
+// Using the keyword 'any'
 
 // Write a function, isOdd, which returns true if the number passed in is not divisible by 2
 
@@ -18,10 +21,10 @@ const myDogsName: string = "Shayla";
 // Expected Output : 'The Quick Brown Fox '
 
 // Complex types:
-type Animal = {
-  name: string;
-  age: number;
-};
+// type Animal = {
+//   name: string;
+//   age: number;
+// };
 
-// Array of Objects
-const myAnimals: Animal[] = [];
+// // Array of Objects
+// const myAnimals: Animal[] = [];
